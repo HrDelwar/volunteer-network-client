@@ -5,6 +5,7 @@ import Event from '../Event/Event';
 
 
 const Home = () => {
+    document.title= "Home || Volunteer Network";
     const [events, setEvents] = useState([]);
     const [loading, setLoading] = useState(true);
 

@@ -9,6 +9,7 @@ import {
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import AddEvents from './components/AddEvents/AddEvents';
+import NotFound from './components/NotFound/NotFound';
 
 
 
@@ -25,6 +26,9 @@ function App() {
         </Route>
         <Route exact path="/">
           <Home />
+        </Route>
+        <Route path="*">
+          <NotFound/>
         </Route>
       </Switch>
     </Router>

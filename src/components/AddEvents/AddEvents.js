@@ -6,6 +6,7 @@ import { useForm } from "react-hook-form";
 
 
 const AddEvents = () => {
+    document.title= "Add Event || Volunteer Network";
     const [success, setSuccess] = useState(false);
     const [uploadedImage, setUploadedImage] = useState({});
     const { register, handleSubmit, watch, errors } = useForm();
